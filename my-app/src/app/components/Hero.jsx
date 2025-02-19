@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import { Play, Info } from "lucide-react";
-import FeaturedMovie from "../images/FeaturedMovie.webp"
 
 const Hero = () => {
   return (
@@ -9,7 +8,7 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 -z-10">
         <Image
-          src={FeaturedMovie}
+          src="/images/FeaturedMovie.webp"
           alt="Featured Movie"
           layout="fill"
           objectFit="cover"

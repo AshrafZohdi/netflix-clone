@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "../images/logo.webp"
 import ProfileMenu from "./ProfileMenu"
 
 const Navbar = () => {
@@ -30,7 +29,7 @@ const Navbar = () => {
         {/* Logo & Navigation Links */}
         <div className="flex items-center gap-6">
           <Link href="/">
-            <Image src={Logo} alt="Netflix" width={50} height={50} />
+            <Image src="/images/logo.webp" alt="Netflix" width={50} height={50} />
           </Link>
           <div className="hidden md:flex space-x-6 text-white">
             <Link href="/">Home</Link>
